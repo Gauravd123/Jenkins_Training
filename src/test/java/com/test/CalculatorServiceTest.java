@@ -16,7 +16,7 @@ public class CalculatorServiceTest {
 	public void addTest()
 	{
 		int result = CalculatorService.add(2, 3);
-		int expected = 5;
+		int expected = 4;
 		Assert.assertEquals(expected, result);
 		System.out.println("Expected sum: "+expected);
 	}
